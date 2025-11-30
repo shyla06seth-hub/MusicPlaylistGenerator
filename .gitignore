@@ -2,3 +2,17 @@ main
 *.o
 playlist.dat
 .vscode/
+
+# build artifacts
+main
+*.o
+*.exe
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# local playlist file (we will move it to data/ but keep ignored in root)
+playlist.txt
